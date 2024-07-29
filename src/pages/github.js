@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-//import Error from "./_error";
+import Error from "./_error";
 import Link from "next/link";
 
 const Github = ({ user, statusCode }) => {
@@ -40,7 +40,7 @@ Github.proptypes = {};
 
 export async function getServerSideProps() {
   const res = await fetch(
-    "https://github.com/NyuAngel"
+    "https://api.github.com/users/nyuangel"
   );
   const data = await res.json();
 
