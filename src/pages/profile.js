@@ -31,64 +31,47 @@ export const skills = [
   
   export const experiences = [
     {
-      title: "Software developer at Microsoft",
+      title: "Cooperativa de Crédito Corvinde - Management Assistant",
       description:
-        "Microsoft.com",
-      from: 2000,
-      to: 2005,
+        "Responsible for carrying out customer service processes, conducting commercial visits, entering information into the Linix application, updating data, as well as drafting and producing documents; Responsible for managing and controlling petty cash, treasury replacements, archiving, reception, and mass mailing (sending invoices).",
+      from:  2019,
+      to:  2019,
     },
     {
-      title: "Software developer at Google",
+      title: "Dirección De Impuestos y Aduanas Nacionales –Archive Organization Assistance Technician",
       description:
-        "Google.com",
-      from: 2005,
-      to: 2007,
+        "Notify, process, and deliver internal and external correspondence, classify documentation, manage databases, alphanumeric data entry, customer service, physically install archive documents in conservation units and according to current regulations, paginate, remove abrasive material, fill out route sheets.",
+      from: 2018,
+      to: 2019,
     },
     {
-      title: "Software developer at SpaceX",
+      title: "EMTELCO - Technical Advisor, Ministerio del Trabajo",
       description:
-        "SpaceX.com",
-      from: 2010,
+        "Provide correct, effective, and timely guidance to the concerns raised by citizens requiring employment guidance. Inform the supervisor about any situation encountered during the management process that may constitute an alert (positive or negative) for the entity. Manage databases of victims of the armed conflict (Training program for young victims of the conflict).",
+      from: 2013,
+      to: 2014
     },
   ];
   
   export const projects = [
     {
-      name: "Awesome Website 1",
+      name: "React Gallery",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+        "Este proyecto es una práctica de SPA con react-router-dom, en una aplicación frontend con React + Vite.",
       image: "proyecto_galeria.png",
     },
     {
-      name: "Awesome Website 2",
+      name: "API Galeria Gatitos",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio1.png",
+        "Actividad grupal (Álvaro Novoa - Viviana Fandiño), ejercicio consumir una API pública que retorne imágenes y mostrar las imagenes en el navegador usando  usando estilos",
+      image: "api_gatitos.png",
     },
     {
-      name: "Awesome Website 3",
+      name: "Context API ",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio1.png",
-    },
-    {
-      name: "Awesome Website 4",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio1.png",
-    },
-    {
-      name: "Awesome Website 5",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio1.png",
-    },
-    {
-      name: "Awesome Website 6",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio1.png",
-    },
+        "Ejercicio completo con consumo de API para mostrar artículos",
+      image: "context_api.png",
+    }, 
   ];
   
   export const posts = [
